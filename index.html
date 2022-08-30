@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixitup Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button type="button" class="control" data-filter="all" > All </button>
+            <button type="button" class="control" data-filter=".clock" >Clock </button>
+            <button type="button" class="control" data-filter=".computer" > Computer </button>
+            <button type="button" class="control" data-filter=".mobile" > Mobile </button>
+            <button type="button" class="control" data-filter=".education" > Education </button>
+
+        </div>
+
+        <div class="image-group" id="img">
+            <img class="mix clock" src="img/1.jpg" alt="" width="250">
+            <img class="mix computer" src="img/5.jpg" alt="" width="250">
+            <img class="mix mobile" src="img/9.jpg" alt="" width="250">
+            <img class="mix education" src="img/Home.jpg" alt="" width="250">
+            <img class="mix clock" src="img/2.jpg" alt="" width="250">
+            <img class="mix computer" src="img/6.jpg" alt="" width="250">
+            <img class="mix mobile" src="img/10.jpg" alt="" width="250">
+            <img class="mix education" src="img/Language.jpg" alt="" width="250">
+            <img class="mix clock" src="img/3.jpg" alt="" width="250">
+            <img class="mix computer" src="img/7.jpg" alt="" width="250">
+            <img class="mix mobile" src="img/11.jpg" alt="" width="250">
+            <img class="mix education" src="img/Novel.jpg" alt="" width="250">
+            <img class="mix clock" src="img/4.jpg" alt="" width="250">
+            <img class="mix computer" src="img/7.jpg" alt="" width="250">
+            <img class="mix mobile" src="img/12.jpg" alt="" width="250">
+            <img class="mix education" src="img/Poetry.jpg" alt="" width="250">
+            
+        </div>
+    </div>
+
+    <script src="script/mixitup.min.js"></script>
+
+    <script>
+      var amir = document.getElementById('img')
+      var mixer = mixitup(amir);
+    </script>
+
+</body>
+</html>
